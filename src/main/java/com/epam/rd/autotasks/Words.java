@@ -6,7 +6,7 @@ import java.util.*;
 public class Words {
 
     public String countWords(List<String> lines) {
-        StringTokenizer tokenizerForLines = new StringTokenizer(lines.toString(), "[] .,‘’(“—/:?!;*)'\\\"-");
+        StringTokenizer tokenizerForLines = new StringTokenizer(lines.toString(), "[] .,‘’(“”—/:?!;*)'\\\"-");
 
         Map<String, Integer> countWordsMap = new HashMap<>();
 
